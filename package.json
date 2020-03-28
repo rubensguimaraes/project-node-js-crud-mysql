@@ -1,13 +1,15 @@
 {
-  "name": "first-project-node-js",
+  "name": "project-node-js-crud-mysql",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev" : "nodemon index.js"
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
